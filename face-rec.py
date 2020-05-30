@@ -11,7 +11,7 @@ face_locations = face_recognition.face_locations(image)
 face_locations
 # face_locations is now an array listing the co-ordinates of each face!
 
-print("I found {} face(s) in this photograph.".format(len(face_locastions)))
+print("I found {} face(s) in this photograph.".format(len(face_locations)))
 
 for face_location in face_locations:
     # Print the location of each face in this image
